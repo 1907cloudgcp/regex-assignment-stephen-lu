@@ -2,4 +2,5 @@
 2. grep ".gan$" cities.txt
 3. grep "^[ADE]" cities.txt (grep -c "^[ADE]" cities.txt)
 4. grep -E "^.ar|\ .ar|-.ar" cities.txt (take another look later)
-5.
+5. grep "^[^C]" cities.txt
+6. 
