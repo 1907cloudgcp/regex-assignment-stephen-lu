@@ -4,4 +4,4 @@
 4. grep -E "^.ar|\ .ar|-.ar" cities.txt (take another look later)
 5. grep "^[^C]" cities.txt
 6. grep "(\w|-){14}" cities.txt
-7. 
+7. grep -c "^B" cities.txt
