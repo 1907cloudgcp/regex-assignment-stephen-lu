@@ -7,4 +7,7 @@
 7. grep -c "^B" cities.txt
 8. grep -o "d" cities.txt | wc -l
 9. egrep "(\w)\1+$" cities.txt
-10. 
+10. egrep -i "(^\w)(\w).\2\1$" cities.txt 
+    (for 7 letters) 
+    grep -i "(^\w)(\w)(\w).\3\2\1$" cities.txt 
+
