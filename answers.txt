@@ -1,1 +1,4 @@
-1. 
+1. grep "^Z" cities.txt
+2. grep ".gan$" cities.txt
+3. grep "^[ADE]" cities.txt (grep -c "^[ADE]" cities.txt)
+4. 
